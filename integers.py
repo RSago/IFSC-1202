@@ -1,5 +1,5 @@
-print("First Number: 4")
-print("Second Number: 7")
-print("Third Number: 3")
-print (4 + 7 + 3)
-print("14")
+num1 = input("Give me a number: ")
+num2 = input("Give me another number: ")
+num3 = input("One more number: ")
+
+print(num1 + num2 + num3)

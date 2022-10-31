@@ -1,4 +1,3 @@
- 
 def __init__(self,year,make):
         self.Year=year 
         self.Make=make 

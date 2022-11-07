@@ -24,7 +24,7 @@ for i in range(3):
     emp = Employee(y[0], y[1], int(y2[1]), float(y[3]))
     employees.append(emp)
 employeesFile.close()
-print({:>12s}{:>12s}{:>12s}{:>12s}{:>12s}{:>12s}". format("First", "Last","ID", "Hours", "Hourly", "Weekly")) 
+print("{:>12s}{:>12s}{:>12s}{:>12s}{:>12s}{:>12s}". format("First", "Last","ID", "Hours", "Hourly", "Weekly")) 
 print("{:>12s}{:>12s}{:>12s}{:>12s}{:>12s}{:>12s}". format("Name", "Name", "Number", "Worked", "Wage", "Pay")) 
 for emp in employees:   
     print("{:>12s}{:>12s}{:>12d}{:>12.2f}{:>12.2f}{:>12.2f}". 

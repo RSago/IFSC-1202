@@ -25,9 +25,9 @@ s2 = lengthSquare(A,C)
 s3 = lengthSquare(A,B)
 	
 # length of sides be 1, 2, 3
-s1 = (float)sqrt (1)
-s2 = (float)sqrt (2)
-s3 = (float)sqrt (3)
+s1 = (float) sqrt (A)
+s2 = (float) sqrt (B))
+s3 = (float) sqrt (C)
 	
 # From Cosine law
 s1 = (float) acos ((b2 + c2 - a2)/(2*b*c))
